@@ -24,6 +24,10 @@ public static void main(String[] args) {
 	dll.insertFirst(3);
 	dll.insertLast(9);
 	dll.display();
+	CircularLinkedList cll=new CircularLinkedList();
+	cll.insertLast(2);
+	cll.insertLast(3);
+	cll.display();
 	
 	
 	

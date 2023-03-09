@@ -34,6 +34,20 @@ public class DoubleLinkedList {
 		tail=node;
 		size++;
 	}
+	public void delete(int val) {
+		Node node =head;
+		if(head.value==val) {
+			tail.next=head.next;
+			head=head.next;
+			return;
+			
+		}
+		while(node.next.value!=val) {
+			node=node.next;
+		}
+		node.next=node.next.next;
+		
+	}
 	public void display() {
 		Node temp=head;
 		while(temp!=null) {
