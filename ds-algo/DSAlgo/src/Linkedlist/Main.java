@@ -19,6 +19,11 @@ public static void main(String[] args) {
 	ll.insertLast(5);
 	ll.deleteAt(4);
 	ll.display();
+	DoubleLinkedList dll=new DoubleLinkedList();
+	dll.insertFirst(2);
+	dll.insertFirst(3);
+	dll.insertLast(9);
+	dll.display();
 	
 	
 	
